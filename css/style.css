@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Pro:400,600');
+
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+header {
+    background-image: url('../img/header.png');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgba(0, 0, 0, .84);
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.625em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 2.813em;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 1.375em;
+}
+
+h4 {
+    font-size: 1.125em;
+}
+
+p {
+    margin-top: 0.500em;
+}
+
+.small-desc {
+    color: rgba(0,0,0,.68);
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.breakpoints ul {
+    padding: 0;
+}
+
+.breakpoints li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding: 0 0.9375em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 36em) {
+    .container {
+        max-width: 33.75em;
+    }
+}
+
+@media (min-width: 48em) {
+    .container {
+        max-width: 45em;
+    }
+}
+
+@media (min-width: 62em) {
+    .container {
+        max-width: 46.250em;
+    }
+}
+
+/*@media (min-width: 75em) {
+    .container {
+        height: auto;
+        max-width: 46.250em;
+    }
+}*/
