@@ -11,7 +11,8 @@
     <main>
         <header>
             <div class="container">
-                <h1>De 99 verhalen van RET</h1>
+                <h1>De 99 verhalen van RET | einddocument</h1>
+                <h2>Lien Vo</h2>
             </div>
         </header>
         <section>
@@ -26,7 +27,9 @@
             <div class="container">
                 <article>
                     <h2>Het concept</h2>
-                    <p>De opdracht was aan mij om de website vorm te geven en een werkende prototype maken.</p>
+                    <p>De opdracht was aan mij om een website vorm te geven in de huisstijl RET met hierin alle 99 verhalen van stijloefeningen. Waar gebruikers voor/tijdens/na hun reis van gebruik konden maken.</p>
+                    <p>Het was belangrijk dus belangrijk om een multi device ervaring te creëren voor de gebruikers. Waarmee ze hun taak kunnen beginnen, maar ook af kunnen maken. Zodat gebruikers op elk device dezelfde ervaringen verkrijgen.</p>
+                    <p>Daarnaast kreeg ik ook de opdracht om een verhaal, uit de <a href="http://nurksmagazine.nl/?s=stijloefeningen">99 stijloefeningen</a> te kiezen en om die vervolgens ook vorm te geven.</p>
                 </article>
                 <article>
                     <h3>Usergoals</h3>
@@ -50,7 +53,11 @@
             <div class="container">
                 <article>
                     <h2>Multidevice</h2>
-                    <p>De opdracht was aan mij om de website vorm te geven en een werkende prototype maken.</p>
+                    <p>Om ervoor te zorgen dat de gebruiker op elk device dezelfde ervaring krijgt, heb ik ervoor gekozen om de layout <em>consistent</em> te houden. Dit houd in dat de hoofdfunctionaliteit op elk device hetzelfde eruit ziet en werkt. Daarnaast kan de gebruiker gemakkelijk zijn/haar taak vervolgen, mits hij/zij ingelogd is, ookwel <em>continu</em> genoemd.</p>
+                    <blockquote>
+                        "De gebruiker wil tijdens de reis verhalen kunnen lezen."
+                    </blockquote>
+                    <p>Hieronder kun je de breakpoints vinden van de website.</p>
                 </article>
                 <article>
                     <h4>Overzichtspagina</h4>
@@ -61,63 +68,144 @@
                         <p>Vanaf 48em zal er verandering komen aan de layout. Dan krijg je een iets andere filter te zien, er is meer zichtbaar. Daarnaast wordt er gebruik gemaakt van 2 kolommen en daarna veranderd het naar 3 kolommen.</p>
                         <li>Breakpoint 3 (Desktop viewport)</li>
                         <p>Als laatst wordt de filter aan de zijkant gezet, en ontstaat er een layout van 4 kolommen.</p>
-                        <img src="img/breakpoints.gif">
-                        <p class="small-desc">Werking breakpoints</p>
                     </ul>
+                    <img src="assets/gif/overzicht-breakpoints.gif">
+                    <p class="small-desc">Werking breakpoints</p>
+                    <p>Zie prototype:</p>
+                    <a href="https://nlvo.github.io/stories/">Github repository</a>
+                </article>
+                <article>
+                    <h4>Verhaal pagina</h4>
+                    <blockquote>
+                        "De gebruiker wil tijdens de reis verhalen kunnen lezen."
+                    </blockquote>
+                    <ul>
+                        <li>Breakpoint 1 (Mobile viewport)</li>
+                        <p>Op mobiel word alles onder elkaar gezet dit zal ook zo blijven op desktop. Het enige wat zal veranderen is de margin en de font grootte, er komt steeds meer margin bij en de font zal groter worden naarmate je op een grotere scherm de pagina bekijkt.</p>
+                    </ul>
+                    <img src="assets/gif/verhaal-breakpoints.gif">
+                    <p class="small-desc">Werking breakpoints</p>
+                    <p>Zie prototype:</p>
+                    <a href="https://nlvo.github.io/stories/doof.html">Github repository</a>
                 </article>
             </div>
         </section>
         <section>
             <div class="container">
                 <article>
-                    <h2>Micro interacties</h2>
-                    <img src="img/micro-interactie-bookmark.jpg">
+                    <h2>Organisatie</h2>
+                    
+                    <h3>Filter</h3>
+                    <p>Op de overzicht pagina kan de gebruiker alle 99 verhalen vinden. Hier kunnen ze op de duur/aantal woorden, genre en op tags filteren.</p>
+                    <blockquote>
+                        "De gebruiker wil een leuk verhaal kunnen vinden."
+                    </blockquote>
+                    <img src="assets/screens/desktop-filter.png">
+                    <p class="small-desc">Filter op desktop</p>
+                    <img src="assets/screens/mobile-filter.png">
+                    <p class="small-desc">Filter op mobiel</p>
+
+                    <h3>Input geven</h3>
+                    <p>Als een gebruiker onderweg is, kan de gebruiker ervoor kiezen om een verhaal te <em>liken</em>. Daarnaast kan de gebruiker er ook voor kiezen om onder de verhaalpagina een gedetaileerde mening geven.</p>
+                    <blockquote>
+                        “De gebruiker wil zijn input geven zodat anderen betere en leuke verhalen kunnen lezen”.
+                    </blockquote>
+                    <img src="assets/comments.jpg">
+                    <p class="small-desc">Commentaar sectie</p>
+                    <h3>Aangeboden verhalen</h3>
+                    <p>Onderaan de overzichtspagina kan de gebruiker aanbevolen verhalen vinden, op basis van wat hij/zij zoal heeft bekeken.</p>
+                    <blockquote>
+                        "De gebruiker wil aanbevolen en/of verrassende resultaten aangeboden krijgen."
+                    </blockquote>
+                    <img src="assets/screens/desktop-recommended.jpg">
                 </article>
             </div>
         </section>
         <section>
             <div class="container">
                 <article>
-                    <h2>Vormgeving</h2>
-                    <p>De opdracht was aan mij om de website vorm te geven en een werkende prototype maken.</p>
+                    <h2>Micro interacties | uitgewerkt</h2>
+                    <p>Om gebruikers feedback te geven en te laten begrijpen wat ze doen, heb ik twee micro interacties uitgewerkt die kun je hieronder vinden.</p>
+                    <h3>1. Micro interactie | Bookmark</h3>
+                    <p>De eerste micro interacties is het bookmarken van een verhaal. Op het moment dat je op het bookmark icoon klikt zal de animatie afspelen, zodat de gebruiker weet dat er iets gebeurt. En word een blauw bolletje weergegeven bij het bookmark icoon in de menu balk.</p>
+                    <img class="micro-interactions" src="assets/gif/bookmark-micro-interaction.gif">
+                    <h3>Animatie | Bookmark</h3>
+                    <img class="bookmark-icon" src="assets/gif/bookmark-icon.gif">
+                    <h3>2. Micro interactie | Zoekbalk</h3>
+                    <p>De tweede micro interactie gaat over de zoekbalk, op het moment dat je op het zoek icoon klikt wordt de hele menu rood en komt een input veld tevoorschijn. Hiermee geef ik aan de gebruiker aan dat ze hier kunnen typen/zoeken.</p>
+                    <img class="micro-interactions" src="assets/gif/search-micro-interaction.gif">
+                    <h3>Animatie | Zoekbalk</h3>
+                    <img class="micro-interactions" src="assets/gif/searchbar.gif">
+                    <h3>Input geven</h3>
+                    <blockquote>
+                        “De gebruiker wil zijn input geven zodat anderen betere en leuke verhalen kunnen lezen”.
+                    </blockquote>
                 </article>
             </div>
+        </section>
+        <section>
             <article>
                 <div class="container">
+                    <h2>Vormgeving toepassen</h2>
                     <h3>Huisstijl onderzoek</h3>
                     <p>Om te beginnen heb ik eerst de huisstijl van RET onderzocht die ze op dit moment gebruiken. Om de vormgeving van de verhalen website te laten aansluiten op de huidige stijl van RET.</p>
-                    <img src="img/huisstijl.png">
+                    <img src="assets/huisstijl/kleurpalet.png">
+                    <img src="assets/huisstijl/typografie.png">
                     <p class="small-desc">Korte samenvatting huisstijl</p>
                 </div>
-                <img src="img/screens/all-screens.png">
-                <p class="small-desc">Vormgeving website</p>
             </article>
+            <article class="highlight">
+                <div class="container">
+                    <img src="assets/screens/all-screens.png">
+                    <p class="small-desc">Vormgeving website</p>
+                </div>
+            </article>
+        </section>
+        <section>
             <div class="container">
                 <article>
                     <h2>Verhaal vormgeving</h2>
-                    <img src="img/visual-research-final.png">
-                    </article>
-                    <article>
-                        <h3>Visual research</h3>
-                        <p>Voordat ik kon beginnen met het vormgeven van mijn gekozen verhaal, heb ik eerst een woordweb gemaakt. Waar ik sfeerwoorden heb opgeschreven die bij mij opkwamen tijdens het lezen van het verhaal “Doof”. Hieruit kwam het sfeerwoord “stilte” en ben ik met mijn visual research begonnen.</p>
-                        <p>Concept (verhaal)
-                            De hoofdpersoon in het verhaal is doof en hoort daardoor niks meer, zelfs niet als zijn kindje in de bus huilt. En schrikt hij zich rot als er plots iemand voor hem staat. Als hij moet communiceren gebeurt dit vaak door een poging lip te lezen, maar het beste is natuurlijk geschreven tekst.
-                        </p>
-                        <p>Vervolgens heb ik naar cliché beelden gezocht omtrent het sfeerwoord, waar ik vervolgens kleuren en vormen en ook mijn typografie op heb gebaseerd.</p>
-                    </article>
+                    <img src="assets/verhaal/visual-research-final.png">
+                    <p class="small-desc">Eindresultaat</p>
+                </article>
+                <article>
+                    <h3>Visual research</h3>
+                    <p>Voordat ik kon beginnen met het vormgeven van mijn gekozen verhaal, heb ik eerst een woordweb gemaakt. Waar ik sfeerwoorden heb opgeschreven die bij mij opkwamen tijdens het lezen van het verhaal “Doof”. Hieruit kwam het sfeerwoord “stilte” en met het woord ben ik met mijn visual research begonnen.</p>
+                    <img src="assets/verhaal/moodboard-verhaal.jpg">
+                    <p class="small-desc">Woordweb verhaal</p>
+                    <p>Tijdens de research heb ik ook een woordweb gemaakt met het sfeerwoord stilte, woorden die bij mij opkwamen bij het sfeerwoord <em>stilte</em></p>
+                    <img src="assets/verhaal/moodboard-stilte.jpg">
+                    <p class="small-desc">Woordweb stilte</p>
+                    <h4>Concept (verhaal)</h4>
+                    <p>
+                        De hoofdpersoon in het verhaal is doof en hoort daardoor niks meer, zelfs niet als zijn kindje in de bus huilt. En schrikt hij zich rot als er plots iemand voor hem staat. Als hij moet communiceren gebeurt dit vaak door een poging lip te lezen, maar het beste is natuurlijk geschreven tekst.
+                    </p>
+                    <p>Aan de hand van de woordweb heb ik naar cliché beelden gezocht omtrent het sfeerwoord, waar ik vervolgens kleuren en vormen en ook mijn typografie op heb gebaseerd.</p>
+                    <img src="assets/verhaal/visual-research.png">
+                    <h3>Verhaal</h3>
+                    <p>Uiteindelijk heb ik mijn verhaal vormgegeven. En kun je hieronder het eindresultaat vinden.</p>
+                    <a href="https://nlvo.github.io/stories/doof.html">Github repository</a>
+                    <img src="assets/verhaal/visual-research-final.png">
+                    <p class="small-desc">Eindresultaat</p>
+                </article>
             </div>
         </section>
         <section>
             <div class="container">
                 <article>
                     <h2>Nawoord:</h2>
-                    <p>Tijdens dit project heb ik veel dingen geleerd, onder andere hoe het is om van begins af aan alles te maken. Dus het ontwerpen, bedenken en ook het uitwerken ervan.
-                        Design patterns en de vakken die hier erg op lijken zoals IA en HCI waren nooit mijn sterkste vakken, maar na dit project ben ik er wel sterker in geworden. Ook heb ik dit ervaren bij het vak Vormgeving, vooral tijdens het ontwerpen van het verhaal.
-                    </p>
+                    <p>Tijdens dit project heb ik kunnen ervaren, hoe het is om een <em>digitale duizendpoot</em> te zijn (zoals CMD het noemt). Dit was dan ook een goede leermoment, omdat ik op dit moment aan het twijfelen ben tussen vormgeving en front-end. Maar een <em>digitale duizendpoot</em> zal ik niet zijn.</p>
+                    <p>Wel ben ik sterker geworden in vakken omtrent HCI en IA wat zeker meegenomen is, of ik me nou ga specialiseren of niet. En tenslote ben ik ook gegroeid als het gaat om vormgeving, hier heb mij meer mogen focussen op de theorie erachter dan alleen het mooi maken. Zoals de <em>hiërarchie, leesbaarheid, focus point</em> etc.</p>
+                    <p>Ook ben ik dankbaar voor de begeleiding en feedback van de docenten, hier heb ik veel van kunnen leren en zal ik zeker kunnen toepassen in toekomstige projecten.</p>
                 </article>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <p>&copy; Lien Vo | Project Web | 99 verhalen van RET</p>
+        </div>
+    </footer>
 </body>
 
 </html>

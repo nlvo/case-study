@@ -7,15 +7,25 @@ body {
 }
 
 header {
-    background-image: url('../img/header.png');
+    background-image: url('../assets/header.png');
     background-size: cover;
     height: 400px;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 header h1 {
+    font-weight: bold;
+}
+
+header h1,
+header h2 {
     color: #fff;
+}
+
+header h2 {
+    margin: 0;
 }
 
 h1,
@@ -51,8 +61,21 @@ p {
     margin-top: 0.500em;
 }
 
+a {
+    color: #ed1a2d;
+}
+
+blockquote {
+    color: rgba(0, 0, 0, .68);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.48;
+    letter-spacing: -.012em;
+}
+
 .small-desc {
-    color: rgba(0,0,0,.68);
+    color: rgba(0, 0, 0, .68);
     text-align: center;
     margin-bottom: 5em;
 }
@@ -68,6 +91,27 @@ p {
 
 img {
     width: 100%;
+}
+
+article.highlight {
+    background-color: #003C6B;
+}
+
+article.highlight p {
+    color: #fff;
+    padding: 0.500em 0;
+}
+
+.micro-interactions {
+    width: 50%;
+}
+
+.bookmark-icon {
+    width: 50px;
+}
+
+footer p {
+    margin-top: 2.813em;
 }
 
 .container {
